@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Rubik;
+  src: url(../assets/fonts/Rubik-VariableFont.ttf);
+}
+
+@font-face {
+  font-family: Rubik-Italic;
+  src: url(../assets/fonts/Rubik-Italic-VariableFont.ttf);
+}
+
+:root {
+  --white-color: #ffffff;
+  --gray-color: #f8f8f8;
+  --black-color: #212121;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 100%;
+  font-family: Rubik;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
